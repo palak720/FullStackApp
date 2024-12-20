@@ -1,0 +1,81 @@
+#logout,#submit {
+    padding: 5px;
+    width: 70px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-weight: 500;
+    float: right;
+  }
+  
+  #logout:hover {
+    background-color: rgb(165, 80, 245);
+    transition: background-color 1s ease;
+  }
+  
+  
+  #user-name, h2{
+      color: blueviolet;
+      font-size: 1.2rem;
+      text-align: center;
+  }
+  
+  #user-data{
+      gap: 0;
+      float: right;
+      margin-right: 2rem;
+  }
+  
+  #add-todo{
+      width: 30%;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  
+  #form{
+      width: 80%;
+      margin: auto;
+      font-size: 1.1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+      padding: 20px 0;
+  }
+  
+  #form input{
+      background-color: rgb(193, 137, 246);
+  }
+  
+  
+  #todo-container{
+  
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      gap: 20px;
+      width: 90%;
+      margin: 30px auto;
+  }
+  
+  .todo-card{
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      /* border: 1px solid blue; */
+      width: 200px;
+      padding: 0 5px;
+  }
+  
+  .pending{
+      border: 1px solid red;
+      animation: blinker 2s infinite;
+  }
+  
+  @keyframes blinker{
+      0% {border: 1px dotted red;}
+      50% {border: transparent;}
+      100% {border: 1px dotted red;}
+  }
+  
