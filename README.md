@@ -12,4 +12,4 @@
 
 ## Screenshots:
 ### 1. Home Page:![HomePage](./Assects/DocsScreenshots/HomePage.png)
-### 2.Signup Page:[Signup page](./Assects/DocsScreenshots/Signup%20page.png)
+### 2.Signup Page:[Signup Page](./Assects/DocsScreenshots/SignupPage.png)

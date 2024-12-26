@@ -223,6 +223,7 @@ document
      <h3> Pending Tasks: ${pendingTasks}</h3>
      <h3> High PriorityTasks: ${HighPriorityTasks}</h3>
       <h3>Med Priority Tasks: ${MedPriorityTasks}</h3>
+      
     <div id="get_stats_data">
        <h2> Here is Summary of the Tasks created by <span> ${loginData.username} </span> </h2>
        <h3> Completed Tasks: ${completedTasks}</h3>
